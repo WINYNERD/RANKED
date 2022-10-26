@@ -1,0 +1,62 @@
+header {
+	background: #000000;
+	box-shadow: inset 1px 1px 20px 10px #C0C0C0;
+	width: auto;
+}
+
+.banner-top {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	position: relative;
+	right: -500px;
+}
+
+.input-padrao {
+	display: inline;
+    margin: 0px -5px 0px -4px;
+    padding: 9px 13px;
+    border: 3px solid white;
+}
+
+.enviar {
+	background: orange;
+    color: #000000;
+    padding: 10px 15px 11px 15px;
+    border: 1px solid #000000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    background-image: linear-gradient(45deg, transparent 50%, #7273ED 65%);
+    background-position: 30%;
+    background-size: 400%;
+    transition: background 1s ease-in-out, color 1s ease-in-out;
+}
+
+.enviar:hover {
+  color: #FEFEFE;
+  background-position: 100%;
+}
+
+label {
+	border: 1.5px solid black;
+    background: orange;
+    padding: 6px 10px 10px 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form {
+	position: absolute;
+    top: 225px;
+    right: 420px;
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		width: max-content;
+	}
+}
